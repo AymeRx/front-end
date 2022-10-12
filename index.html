@@ -2,37 +2,49 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <!--style global-->
+    <link rel="stylesheet" href="style/styleglobal.css">
+    <!--style spécifique à la page-->
+    <link rel="stylesheet" href="style/styleindex.css">
     <metaname="description" content="Zoo Zanimaux"/>
     <metaname="author" content="Aymeric">
     <title>Parc Zoologique</title>
 </head>
 <body>
-    <div>
-        <h1>Parc Zoologique</h1>
-    </div>
-    <hr>
     <div class="menu">
-        <h2>Menu</h2>
         <nav>
-                <a href="menu.html">Menu</a>
-                <a href="activite.html">Activités</a>
-                <a href="animaux.html">Animaux</a>
-                <a href="virtuel_audio.html">Banque de sons</a>
-                <a href="virtuel_video.html">Visite Virtuel Vidéo</a>
-                <a href="contact.html">Contact</a>
+            <ul>
+                <li><a class="active" href="index.html">Accueil</a></li>
+                <li><a href="#">Menu</a>
+                    <ul class="sous-menu">
+                        <li><a href="#">Connexion</a></li>
+                        <li><a href="#">Recherche</a></li>
+                        <li><a href="#">Billeterie</a></li>
+                        <li><a href="#">Promotion</a></li>
+                    </ul>
+                </li>
+                <li><a href="activite.html">Activités</a></li>
+                <li><a href="animaux.html">Animaux</a></li>
+                <li><a href="virtuel_audio.html">Banque de sons</a></li>
+                <li><a href="virtuel_video.html">Banque de vidéos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </div>
+        <h1>Parc Zoologique</h1>
     <hr>
-    <div>
-        <h2>Description Générale</h2>
-        <figure>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquam quaerat velit corrupti porro, fugit numquam beatae ipsam doloribus quae quo sunt eligendi vero incidunt ad consequuntur eaque voluptatibus consectetur?</figure>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est distinctio nam molestias, quam ut illum voluptatibus vitae deleniti praesentium quisquam suscipit animi dolor delectus fugiat quos qui fuga nemo iste!</p>
-
-    </div>
-    <hr>
-    <div>
-        <h2>Section Pratique</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident facilis et reiciendis numquam quam ab voluptatum in odit, molestias fugit harum vitae maiores ea repellendus explicabo obcaecati doloremque inventore? Temporibus!</p>
-    </div>
+    <main>
+        <div>
+            <h2>Description Générale</h2>
+            <figure>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquam quaerat velit corrupti porro, fugit numquam beatae ipsam doloribus quae quo sunt eligendi vero incidunt ad consequuntur eaque voluptatibus consectetur?</figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est distinctio nam molestias, quam ut illum voluptatibus vitae deleniti praesentium quisquam suscipit animi dolor delectus fugiat quos qui fuga nemo iste!</p>
+    
+        </div>
+        <hr>
+        <div>
+            <h2>Section Pratique</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident facilis et reiciendis numquam quam ab voluptatum in odit, molestias fugit harum vitae maiores ea repellendus explicabo obcaecati doloremque inventore? Temporibus!</p>
+        </div>
+    </main>
 </body>
 </html>

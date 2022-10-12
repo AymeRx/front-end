@@ -1,0 +1,86 @@
+/* style des titre de chaque page */
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:   -1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white,
+     1px 1px 10px #141414;color:#4CAF50;  
+    padding-top: 40px;  
+}
+
+h2{
+    text-shadow:   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+     1px 1px 10px #141414;color:#8B4513;
+}
+
+/* style de chaque page */
+body {
+    margin: 0;
+    background-color: #FFF8DC;
+}
+
+
+
+/* style du menu */
+.menu nav{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu .active {
+    background-color: #4CAF50;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li {
+    float: left;
+    border-right: 1px solid #bbb;
+
+}
+
+.menu li:last-child {
+    border-right: none;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu li a:hover {
+    background-color: #111;
+}
+
+<!-- /* style du menu déroulant*/ -->
+nav ul li ul { 
+    display:none; /* Rend le menu déroulant caché par défaut */
+} 
+
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display:list-item !important;
+    position:absolute;
+}
+
+nav ul li:hover ul li {
+    float:none;
+}

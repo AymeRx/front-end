@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="style/styleglobal.css">
     <meta charset="UTF-8">
     <metaname="description" content="Zoo Zanimaux"/>
     <metaname="author" content="Aymeric">
     <title>Visite audio</title>
 </head>
 <body>
-    <menu>
-        <h2>Menu</h2>
+    <div class="menu">
         <nav>
-                <a href="menu.html">Menu</a>
-                <a href="activite.html">Activités</a>
-                <a href="animaux.html">Animaux</a>
-                <a href="virtuel_audio.html">Banque de sons</a>
-                <a href="virtuel_video.html">Visite Virtuel Vidéo</a>
-                <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">Menu</a>
+                    <ul class="sous-menu">
+                        <li><a href="#">Connexion</a></li>
+                        <li><a href="#">Recherche</a></li>
+                        <li><a href="#">Billeterie</a></li>
+                        <li><a href="#">Promotion</a></li>
+                    </ul>
+                </li>
+                <li><a href="activite.html">Activités</a></li>
+                <li><a href="animaux.html">Animaux</a></li>
+                <li><a class="active" href="virtuel_audio.html">Banque de sons</a></li>
+                <li><a href="virtuel_video.html">Banque de vidéos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-    </menu>
+    </div>
+    <h1>Banque de son</h1>
     <main>
         <article>
             <h4>Chien</h4>
