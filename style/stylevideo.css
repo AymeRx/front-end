@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  width: 40%;
+  margin: 10px;
+}
+
+h4 {
+  text-align: center;
+}
+
+video {
+  display: flex;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
