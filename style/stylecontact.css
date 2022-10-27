@@ -1,6 +1,6 @@
-input[type="text"],
-textarea,
-input[type="email"] {
+section#Contact input[type="text"],
+section#Contact textarea,
+section#Contact input[type="email"] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -12,13 +12,14 @@ input[type="email"] {
   margin-left: 0px;
   resize: vertical;
 }
-label {
+
+section#Contact label {
   margin-right: 0px;
   margin-left: 0px;
   width: 100%;
 }
 
-input[type="submit"] {
+section#Contact input[type="submit"] {
   background-color: #1255a2;
   color: white;
   padding: 12px 20px;
@@ -27,11 +28,11 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+section#Contact input[type="submit"]:hover {
   background-color: #1872d9;
 }
 
-main {
+section#Contact main {
   /* Ajouter box-sizing */
   box-sizing: border-box;
   border-radius: 5px;

@@ -1,24 +1,24 @@
-main {
+section#Video main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-article {
+section#Video article {
   width: 40%;
   margin: 10px;
 }
 
-h4 {
+section#Video h4 {
   text-align: center;
 }
 
-video {
+section#Video video {
   display: flex;
   margin: auto;
 }
 
-p {
+section#Video p {
   text-align: center;
 }

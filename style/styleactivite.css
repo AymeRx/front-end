@@ -1,15 +1,13 @@
-
-
-ol li {
+section#Activite ol li {
 	margin-bottom: 10px;
 }
 
-ol li a{
+section#Activite ol li a{
 	text-decoration: none;
 	color: #000;
 }
 
-ol li a:hover{
+section#Activite ol li a:hover{
 	color : grey;
 }
 

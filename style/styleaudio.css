@@ -1,24 +1,24 @@
-main {
+section#Audio main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-article {
+section#Audio article {
   width: 40%;
   margin: 10px;
 }
 
-h4 {
+section#Audio h4 {
   text-align: center;
 }
 
-audio {
+section#Audio audio {
   display: flex;
   margin: auto;
 }
 
-p {
+section#Audio p {
   text-align: center;
 }
