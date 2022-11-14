@@ -35,9 +35,9 @@ body {
     width: 100%;
 }
 
-.menu .active {
+/* .menu .active {
     background-color: #4CAF50;
-}
+} */
 
 .menu ul {
     list-style-type: none;
@@ -83,4 +83,20 @@ nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class 
 
 nav ul li:hover ul li {
     float:none;
+}
+
+section#Activite{
+    display: none;
+}
+
+section#Audio{
+    display: none;
+}
+
+section#Video{
+    display: none;
+}
+
+section#Contact{
+    display: none;
 }
