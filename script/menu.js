@@ -23,6 +23,10 @@ document.getElementById("lienAfficherActivite").onclick = function() {
     afficherSection("Activite");
 };
 
+document.getElementById("lienAfficherAnimaux").onclick = function() {
+    afficherSection("Animaux");
+};
+
 document.getElementById("lienAfficherAudio").onclick = function() {
     afficherSection("Audio");
 };

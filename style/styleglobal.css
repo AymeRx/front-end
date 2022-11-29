@@ -89,6 +89,10 @@ section#Activite{
     display: none;
 }
 
+section#Animaux{
+    display: none;
+}
+
 section#Audio{
     display: none;
 }

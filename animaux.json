@@ -1,0 +1,19 @@
+{
+    "animaux": [
+      {
+        "nom": "Chat",
+        "image": "/images/chat.jpg",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      },
+      {
+        "nom": "Chien",
+        "image": "/images/chien.jpg",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      },
+      {
+        "nom": "Poisson",
+        "image": "/images/poisson.jpg",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      }
+    ]
+  }
