@@ -2,24 +2,31 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--style global-->
-    <link rel="stylesheet" href="style/styleglobal.css">
-    <!-- style des élement de la page -->
+    <!-- <link rel="stylesheet" href="style/styleglobal.css">
+    style des élement de la page
     <link rel="stylesheet" href="style/styleactivite.css">
     <link rel="stylesheet" href="style/styleanimaux.css">
     <link rel="stylesheet" href="style/styleaudio.css">
     <link rel="stylesheet" href="style/stylevideo.css">
-    <link rel="stylesheet" href="style/stylecontact.css"> 
-
-    <metaname="description" content="Zoo Zanimaux"/>
-    <metaname="author" content="Aymeric">
+    <link rel="stylesheet" href="style/stylecontact.css">  -->
+    <!-- BootStrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper --> 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+ <!-- BootStrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    
     <title>Parc Zoologique</title>
 </head>
 <body>
-    <div class="menu">
+    <!-- <div class="menu">
         <nav>
             <ul>
-                <!-- <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="#">Menu</a>
                     <ul class="sous-menu">
                         <li><a href="#">Connexion</a></li>
@@ -32,7 +39,8 @@
                 <li><a href="animaux.html">Animaux</a></li>
                 <li><a href="virtuel_audio.html">Banque de sons</a></li>
                 <li><a href="virtuel_video.html">Banque de vidéos</a></li>
-                <li><a href="contact.html">Contact</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+
                 <li><a id="lienAfficherAccueil">Accueil</a></li>
                 <li><a href="">Menu</a>
                     <ul class="sous-menu">
@@ -49,7 +57,43 @@
                 <li><a id="lienAfficherContact">Contact</a></li>
             </ul>
         </nav>
-    </div>
+    </div> -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" id="lienAfficherAccueil">ZoAnimaux</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Menu
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" id="lienAfficherActivite">Activités</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="lienAfficherAnimaux">Animaux</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="lienAfficherAudio">Banque de sons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="lienAfficherVideo">Banque de vidéos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="lienAfficherContact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <section id="Accueil"></section>
     <section id="Activite"></section>
     <section id="Animaux"></section>
@@ -58,6 +102,7 @@
     <section id="Contact"></section>
 
     <!-- script appelle de tous les scipt des pages -->
+    
     <script type="text/javascript" src="script/accueil.js"></script>
     <script type="text/javascript" src="script/activite.js"></script>
     <script type="text/javascript" src="script/animaux.js"></script>
@@ -65,6 +110,7 @@
     <script type="text/javascript" src="script/video.js"></script>
     <script type="text/javascript" src="script/contact.js"></script>
     <script type="text/javascript" src="script/menu.js"></script>
+
 </body>
 
 </html>

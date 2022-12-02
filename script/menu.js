@@ -1,3 +1,8 @@
+//au lancement de la page n'afficher que la section d'accueil
+afficherSection("Accueil");
+
+
+
 // afficher la section dont l'id est passé en paramètre
 function afficherSection(id) {
     //selectionner toutes le sections de la page
