@@ -58,7 +58,7 @@ document.getElementById('Audio').innerHTML =
     '  <div class="card shadow-sm">' +
     '   <h4 class="card-title">Vache</h4>' +
     '   <audio controls' +
-    '       <source src="audio/cow2.mp3" type="audio/mp3" style="width: 75%">' +
+    '       <source src="audio/cow.mp3" type="audio/mp3" style="width: 75%">' +
     '   </audio>' +
     '    <div class="card-body"> ' +
     '      <p class="card-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores provident inventore voluptatibus cumque minima dicta suscipit architecto, nostrum maxime quo cupiditate harum! Reprehenderit mollitia error, quidem temporibus nobis laboriosam illum! </p> ' +
@@ -82,7 +82,7 @@ document.getElementById('Audio').innerHTML =
     '  <div class="card shadow-sm">' +
     '   <h4 class="card-title">Poule</h4>' +
     '   <audio controls' +
-    '       <source src="audio/chicken2.mp3" type="audio/mp3" style="width: 75%">' +
+    '       <source src="audio/chicken.mp3" type="audio/mp3" style="width: 75%">' +
     '   </audio>' +
     '    <div class="card-body"> ' +
     '      <p class="card-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores provident inventore voluptatibus cumque minima dicta suscipit architecto, nostrum maxime quo cupiditate harum! Reprehenderit mollitia error, quidem temporibus nobis laboriosam illum! </p> ' +
